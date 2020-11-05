@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+* {
+  box-sizing: border-box;
+}
+body {
+  margin:0;
+  height:600px;
+  padding:20px 50px;
+  font-family: 'Roboto', sans-serif;
+}
+body {
+  background: linear-gradient(to right, rgba(135, 179, 167, 0.5), rgba(72, 100, 93, 0.5), rgba(12,235,235,0.5)), url('https://images6.alphacoders.com/684/684831.jpg');
+  background-repeat:no-repeat;
+  background-size:cover;
+  color:rgb(143, 121, 121);
+}
+
+nav {
+  border:10px solid rgb(70, 66, 66);
+  display:flex;
+  justify-content: flex-end;
+}
+a {
+  margin: 10px;
+}
+
+a:first-child {
+  margin-right:auto;
+}
+a:last-child {
+  margin-right:0;
+}
+a,a:visited {
+  color:white;
+  text-decoration:none;
+  font-size:1.2em;
+}
+
+main {
+  margin-top: 50px;
+/*   height:200px; */
+  background: rgb(227, 245, 245);
+  display:flex;
+}
+
+section {
+  flex-basis:50%;
+/*   flex-wrap:wrap; */
+}
+
+
+/* .gallery {
+  margin:0 auto;
+  background-color:pink;
+  display:flex;
+  flex-wrap:wrap;
+  border:10px solid gray;
+}
+
+img {
+  width:100%;
+  display:block;
+}
+.box {
+  width:33.33333%;
+}
+
+.box1 {
+  background-color: red;
+}
+
+.box2 {
+  background-color: green;
+}
+
+.box3 {
+  background-color: blue;
+} */
+
+.gallery {
+  margin:0 auto;
+  background-color:pink;
+  display:flex;
+  flex-wrap:wrap;
+}
+
+img {
+  width:100%;
+  display:block;
+}
+.box {
+  width:33.33333%;
+/*   height:33.3333%; */
+}
+#main-footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
